@@ -6,12 +6,12 @@ import indumentaria from '../img/imgpages/indumentariaunisex.png'
 import Aos from 'aos'
 import { ArrowLeftSquare, ArrowRightSquare } from "react-bootstrap-icons";
 
-const ItemListContainer = () => {
+const Inicio = () => {
 
   Aos.init({duration: 1300})
  
   return (
-    <div >
+    <div className="inicio">
       <div className="contenedor-titulo">
       <h2 data-aos="fade-right" className="titulo-principal">
         Hola, Soy Cristian Quiros! Desarrollador Web Front-End.{" "}
@@ -34,4 +34,4 @@ const ItemListContainer = () => {
   );
 };
 
-export default ItemListContainer;
+export default Inicio;
