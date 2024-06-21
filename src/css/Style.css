@@ -80,6 +80,10 @@ a {
     background-color: #0D0D0D;
 }
 
+.contacto {
+    min-height: 75vh;
+}
+
 .paginaError {
     min-height: 75vh;
 }
@@ -205,6 +209,11 @@ strong {
 }
 
 @media screen and (max-width:1300px) {
+
+    .inicio {
+        overflow-x: hidden;
+    }
+
     .titulo-principal {
         color: whitesmoke;
         margin: 30px 0px 30px 20px;
@@ -251,10 +260,6 @@ strong {
         justify-content: center;
         text-decoration: underline;
         flex-wrap: wrap;
-    }
-
-    .divSitios {
-        overflow-x: hidden;
     }
 
     .divSitios img {
