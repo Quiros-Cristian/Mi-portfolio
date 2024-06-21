@@ -10,13 +10,15 @@ header {
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0px 1rem 0px 1rem;
     background-color: black;
 }
 
 .container-fluid {
     padding: 0px;
     background-color: black;
+    z-index: 1;
+    width: 100%;
 }
 
 .logo {
@@ -36,6 +38,7 @@ header {
 .navbar {
     width: 100%;
     background-color: black !important;
+    position: relative;
 }
 
 .navbar-toggler {
@@ -94,6 +97,10 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.divLogo {
+    width: 100%;
 }
 
 .imgLogo {
@@ -203,7 +210,13 @@ strong {
         margin: 30px 0px 30px 20px;
         padding-right: 0px;
         width: 100%;
-        font-size: 5rem;
+        font-size: 4rem;
+    }
+
+    .contenedor-titulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .imgLogo {
@@ -211,8 +224,8 @@ strong {
         border-radius: 300px;
         margin-right: 0px;
         margin-top: 40px;
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
 
     .parrafo-experiencia {
@@ -223,5 +236,42 @@ strong {
         text-align: center;
     }
 
+    .sitios {
+        background-color: #262626;
+        border-radius: 10px;
+        margin: 0px 25px 0px 25px;
+        height: 100%;
+    }
 
+    .sitios h2 {
+        font-size: 2.5rem;
+        padding-top: 20px;
+        color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        flex-wrap: wrap;
+    }
+
+    .divSitios {
+        overflow-x: hidden;
+    }
+
+    .divSitios img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .indumentaria {
+        margin-right: 0px;
+    }
+    
+    .tejidos {
+        margin-left: 0px;
+    }
+    
+    .tlou {
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
 }

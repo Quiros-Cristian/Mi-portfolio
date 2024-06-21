@@ -16,9 +16,7 @@ const Inicio = () => {
       <h2 data-aos="fade-right" className="titulo-principal">
         Hola, Soy Cristian Quiros! Desarrollador Web Front-End.{" "}
       </h2>
-      <div>
       <img data-aos="fade-left" className="imgLogo" src={logo}/> 
-      </div>
       </div>
       <p data-aos="fade-up" className="parrafo-experiencia">
         Tengo experiencia desarrollando sitios institucionales con tecnologias como <strong>JavaScript, Html5, Css, Sass, Git, GitHub,</strong> actualmente me
@@ -27,9 +25,9 @@ const Inicio = () => {
       <section className="sitios">
         <h2 data-aos="fade-up" data-aos-duration="2300">Mis sitios</h2>
         <div className="divSitios">
-          <a href="https://quiros-cristian.github.io/53930-proyecto-final/" data-aos="fade-left" data-aos-duration="2300" target="blank"><img data-aos="fade-left" data-aos-duration="2300" className="indumentaria" src={indumentaria}/><ArrowLeftSquare /> Visitar</a>
-          <a href="https://lucilatejidos.netlify.app/" data-aos="fade-right" data-aos-duration="2300" target="blank">Visitar <ArrowRightSquare /><img data-aos="fade-right" data-aos-duration="2300" className="tejidos" src={lucila}/></a>
-          <a href="https://fansthelastofus.netlify.app/" data-aos="fade-left" data-aos-duration="2300" target="blank"><img data-aos="fade-left" data-aos-duration="2300" className="tlou" src={tlou}/><ArrowLeftSquare /> Visitar</a>
+          <a href="https://quiros-cristian.github.io/53930-proyecto-final/" data-aos="fade-left" data-aos-duration="2300" target="blank"><img data-aos="fade-left" data-aos-duration="2300" className="indumentaria" src={indumentaria}/><ArrowLeftSquare /> Click para visitar</a>
+          <a href="https://lucilatejidos.netlify.app/" data-aos="fade-right" data-aos-duration="2300" target="blank">Click para visitar <ArrowRightSquare /><img data-aos="fade-right" data-aos-duration="2300" className="tejidos" src={lucila}/></a>
+          <a href="https://fansthelastofus.netlify.app/" data-aos="fade-left" data-aos-duration="2300" target="blank"><img data-aos="fade-left" data-aos-duration="2300" className="tlou" src={tlou}/><ArrowLeftSquare /> Click para visitar</a>
         </div>
       </section>
     </div>
