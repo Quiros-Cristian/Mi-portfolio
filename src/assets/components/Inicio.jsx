@@ -16,7 +16,9 @@ const Inicio = () => {
       <h2 data-aos="fade-right" className="titulo-principal">
         Hola, Soy Cristian Quiros! Desarrollador Web Front-End.{" "}
       </h2>
-      <img data-aos="fade-left" className="imgLogo" src={logo}/>  
+      <div>
+      <img data-aos="fade-left" className="imgLogo" src={logo}/> 
+      </div>
       </div>
       <p data-aos="fade-up" className="parrafo-experiencia">
         Tengo experiencia desarrollando sitios institucionales con tecnologias como <strong>JavaScript, Html5, Css, Sass, Git, GitHub,</strong> actualmente me

@@ -14,6 +14,11 @@ header {
     background-color: black;
 }
 
+.container-fluid {
+    padding: 0px;
+    background-color: black;
+}
+
 .logo {
     color: #03FA6E;
     margin: 0px;
@@ -25,10 +30,29 @@ header {
     gap: 1.5rem;
     padding: 0px;
     margin: 0px;
+    text-align: end;
 }
 
-.ulnavegacion  li{
-    list-style: none;
+.navbar {
+    width: 100%;
+    background-color: black !important;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.collapse {
+    text-align: end;
+    flex-direction: row-reverse;
+}
+
+.nav-link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}.nav-link:hover{
+    color: #03FA6E;
 }
 
 a {
@@ -171,4 +195,33 @@ strong {
 
 .ullogos li a svg {
     font-size: 3rem;
+}
+
+@media screen and (max-width:1300px) {
+    .titulo-principal {
+        color: whitesmoke;
+        margin: 30px 0px 30px 20px;
+        padding-right: 0px;
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .imgLogo {
+        filter: drop-shadow(0px 0px 25px #03FA6E);
+        border-radius: 300px;
+        margin-right: 0px;
+        margin-top: 40px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .parrafo-experiencia {
+        color: whitesmoke;
+        font-size: 1.6rem;
+        margin: 70px 0px 50px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+
 }
