@@ -41,6 +41,16 @@ header {
     position: relative;
 }
 
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #03FA6E;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #03FA6E;
+}
+
 .navbar-toggler {
     background-color: white;
 }
@@ -50,12 +60,21 @@ header {
     flex-direction: row-reverse;
 }
 
+
 .nav-link {
     font-size: 2rem;
     text-decoration: none;
     color: white;
-}.nav-link:hover{
+    gap: 20px;
+}
+
+.nav-link:hover{
     color: #03FA6E;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white;
 }
 
 a {
@@ -82,10 +101,36 @@ a {
 
 .contacto {
     min-height: 75vh;
+    background-color: #0D0D0D;
+    text-align: center;
+}
+
+.contacto h1 {
+    color: white;
+    padding-top: 20px;
+    font-size: 3.5rem;
+}
+
+.secContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.redes-dos {
+    font-size: 6rem;
+    margin: 50px;
 }
 
 .paginaError {
     min-height: 75vh;
+}
+
+.linkRedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo-principal {
@@ -175,16 +220,6 @@ strong {
     margin-right: 300px;
 }
 
-
-.oscuro {
-    background-color: black ;
-}
-
-.claro {
-    background-color: white ;
-}
-
-
 .footer {
     height: 15vh;
     display: flex;
@@ -204,7 +239,7 @@ strong {
     list-style: none;
 }
 
-.ullogos li a svg {
+.redes {
     font-size: 3rem;
 }
 
@@ -243,6 +278,23 @@ strong {
         margin: 70px 0px 50px 0px;
         width: 100%;
         text-align: center;
+    }
+
+    .ullogos-dos {
+        flex-direction: column;
+    }
+
+    .secContacto {
+        height: 100%;
+    }
+
+    .redes-dos {
+        font-size: 3.5rem;
+        margin: 30px;
+    }
+
+    .linkRedes {
+        flex-direction: row;
     }
 
     .sitios {
