@@ -11,6 +11,8 @@ const Footer = () => {
             <li ><a href="https://www.linkedin.com/in/cristian-quiros-91a06926b/" target='blank'><Linkedin className='redes'/></a></li>
             <li ><a href="https://github.com/Quiros-Cristian" target='blank'><Github className='redes'/></a></li>
         </ul>
+        <h4 className='derechos'>Todos los derechos reservados <strong>@CrisCoder</strong>.</h4>
+        <h5 className='derechos'>Made by <strong>Quiros Cristian</strong>.</h5>
     </div>
     </>
   )

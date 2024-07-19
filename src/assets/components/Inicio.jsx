@@ -23,7 +23,7 @@ const Inicio = () => {
       </div>
       <p data-aos="fade-up" className="parrafo-experiencia">
         Tengo experiencia desarrollando sitios institucionales con tecnologias como <strong>JavaScript, Html5, Css, Sass, Git, GitHub,</strong> actualmente me
-        estoy capacitando en <strong>React js</strong>.
+        dedico mas al desarrollo de sitios con <strong>React js</strong>.
       </p>
       <section className="sitios">
         <h2 data-aos="fade-up" data-aos-duration="2300">Mis sitios</h2>
