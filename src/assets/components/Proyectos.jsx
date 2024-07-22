@@ -1,6 +1,6 @@
 import React from 'react'
 import { ArrowDownSquare, ArrowLeftSquare, ArrowRightSquare, ArrowUpSquare } from 'react-bootstrap-icons'
-import lucila from '../img/imgpages/pagina-lucila-tejidos.png'
+import lucila from '../img/imgpages/nuevalucilatejidos.png'
 import tlou from '../img/imgpages/thelastofus.png'
 import indumentaria from '../img/imgpages/indumentariaunisex.png'
 import Aos from 'aos'
