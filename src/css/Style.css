@@ -5,6 +5,7 @@
     font-family: "Freeman", sans-serif;
 }
 
+/********* Header y Navbar **********/
 
 header {
     height: 10vh;
@@ -85,31 +86,34 @@ a {
     color: #03FA6E;
 }
 
-.botonModoNoche {
-    background-color: transparent;
-    border: 0px;
-    color: white;
-    font-size: 2rem;
-} .botonModoNoche:hover{
-    color: #03FA6E;
-}
+/************ Inicio y otras *************/
 
 .inicio {
     height: 100%;
     background-color: #0D0D0D;
 }
 
-.proyectos {
-    background-color: #0D0D0D;
-}
-
-.contacto {
+.inicioOtras {
     min-height: 75vh;
     background-color: #0D0D0D;
     text-align: center;
 }
 
-.contacto h1 {
+.inicioOtras h1{
+    color: white;
+}
+
+.proyectos {
+    background-color: #0D0D0D;
+}
+
+.inicioOtras {
+    min-height: 75vh;
+    background-color: #0D0D0D;
+    text-align: center;
+}
+
+.inicioOtras h1 {
     color: white;
     padding-top: 20px;
     font-size: 3.5rem;
@@ -176,6 +180,8 @@ strong {
     color: #03FA6E;
 }
 
+/*************** Sitios ***************/
+
 .sitios {
     background-color: #262626;
     border-radius: 10px;
@@ -224,6 +230,8 @@ strong {
     margin-right: 300px;
 }
 
+/****************  Footer ****************/
+
 .footer {
     height: 20vh;
     display: flex;
@@ -251,6 +259,8 @@ strong {
 .derechos {
     color: white;
 }
+
+/***************** Media Querys ******************/
 
 @media screen and (max-width:500px) {
 
