@@ -17,7 +17,7 @@ const Inicio = () => {
     <div className="inicio">
       <div className="contenedor-titulo">
         <h2 data-aos="fade-right" className="titulo-principal">
-          Hola, Soy Cristian Quiros! Desarrollador Web Front-End.{" "}
+          Cristian Quiros Desarrollador Web Front-End.
         </h2>
         <img data-aos="fade-left" className="imgLogo" src={logo} />
       </div>
