@@ -359,11 +359,16 @@ strong {
 }
 @media screen and (max-width:490px) {
     .titulo-principal {
-        font-size: 3.7rem;
+        font-size: 3.6rem;
     }
 
     .divSitios img {
-        width: 330px;
-        height: 210px;
+        width: 320px;
+        height: 200px;
+    }
+
+    .imgLogo{
+        width: 320px;
+        height: 320px;
     }
 }
