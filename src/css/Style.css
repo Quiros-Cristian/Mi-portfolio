@@ -357,3 +357,13 @@ strong {
         margin-right: 0px;
     }
 }
+@media screen and (max-width:490px) {
+    .titulo-principal {
+        font-size: 3.7rem;
+    }
+
+    .divSitios img {
+        width: 330px;
+        height: 210px;
+    }
+}
