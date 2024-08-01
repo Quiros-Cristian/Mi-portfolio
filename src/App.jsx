@@ -6,7 +6,6 @@ import Inicio from './assets/components/Inicio'
 import Contacto from './assets/components/Contacto'
 import NotFound from './assets/components/NotFound'
 import Proyectos from './assets/components/Proyectos'
-import Informacion from './assets/components/Informacion'
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Inicio/>}></Route>
-        <Route path='/informacion' element={<Informacion/>}></Route>
         <Route path='/proyectos' element={<Proyectos/>}></Route>
         <Route path='/contacto' element={<Contacto />}></Route>
         <Route path='/*' element={<NotFound/>}></Route>
