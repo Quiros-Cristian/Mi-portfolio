@@ -268,6 +268,72 @@ strong {
 
 /***************** Media Querys ******************/
 
+@media screen and (max-width:1400px){
+    
+    .titulo-principal{
+        font-size: 3.5rem;
+        padding-right: 50px;
+    }
+
+    .imgLogo {
+        margin-right: 150px;
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .titulo-principal {
+        font-size: 3.6rem;
+    }
+
+    .divSitios img {
+        width: 320px;
+        height: 200px;
+    }
+
+    .imgLogo{
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    
+    .contenedor-titulo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .titulo-principal{
+        width: 90%;
+        text-align: center;
+    }
+
+    .parrafo-experiencia {
+        width: 90%;
+        text-align: center;
+    }
+
+    .imgLogo {
+        margin: 0px;
+    }
+
+    .divSitios a {
+        width: 300px;
+    }
+
+    .divSitios a img {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .sitios {
+        margin: 0px 50px 0px 50px;
+    }
+}
+
 @media screen and (max-width:500px) {
 
     .inicio {
@@ -339,6 +405,10 @@ strong {
         flex-wrap: wrap;
     }
 
+    .divSitios a {
+        width: 380px;
+    }
+
     .divSitios img {
         width: 370px;
         height: 220px;
@@ -355,20 +425,5 @@ strong {
     .tlou {
         margin-bottom: 0px;
         margin-right: 0px;
-    }
-}
-@media screen and (max-width:490px) {
-    .titulo-principal {
-        font-size: 3.6rem;
-    }
-
-    .divSitios img {
-        width: 320px;
-        height: 200px;
-    }
-
-    .imgLogo{
-        width: 320px;
-        height: 320px;
     }
 }
